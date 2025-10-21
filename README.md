@@ -1,6 +1,6 @@
 # Vision Transformer (ViT) from Scratch with PyTorch
 
-![ViT architecture](docs/vit_architecture.png)
+![ViT architecture](vit_architecture.WEBP)
 
 ## Introduction
 
@@ -50,7 +50,7 @@ VisionTransformer-PyTorch/
 ## Install the required dependencies
 
 ```bash
-pip install -U torch torchvision numpy pandas tensorboard tqdm
+pip install -r requirements.txt
 ```
 
 ## How to train the model
@@ -58,13 +58,13 @@ pip install -U torch torchvision numpy pandas tensorboard tqdm
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/<your-username>/VisionTransformer-PyTorch.git
+   git clone https://github.com/joaquinmaciias/VisionTransformer-PyTorch
    cd VisionTransformer-PyTorch
    ```
 2. **Prepare your dataset inside the data/ folder.**
 3. **Run training:**
     ```bash
-    python train_vit.py
+    python train.py
     ```
 4. **Monitor progress in TensorBoard:**
     ```bash
