@@ -30,21 +30,22 @@ The goal of this repository is to provide an educational yet functional implemen
 
 ## Repository Structure
 
+```bash
 VisionTransformer-PyTorch/
 │
 ├── src/
-│ ├── __init__.py
-│ ├── models.py → Vision Transformer architecture
-│ ├── data.py → Data loading and patch preparation
-│ ├── utils.py → Utilities (accuracy, scheduler, save/load model)
-│ ├── train.py → Main training script
-│ ├── evaluate.py → Evaluate model file
-|
-├── requirements.txt → Dependencies
-├── metrics.csv → File to log experiment metrics
-├── models/ → Saved model checkpoints (.pt)
+│   ├── __init__.py
+│   ├── models.py        → Vision Transformer architecture
+│   ├── data.py          → Data loading and patch preparation
+│   ├── utils.py         → Utilities (accuracy, scheduler, save/load model)
+│   ├── train.py         → Main training script
+│   └── evaluate.py      → Evaluate model file
 │
+├── requirements.txt     → Dependencies
+├── metrics.csv          → File to log experiment metrics
+├── models/              → Saved model checkpoints (.pt)
 └── README.md
+```
 
 ## Install the required dependencies
 
