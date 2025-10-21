@@ -1,6 +1,6 @@
 # Vision Transformer (ViT) from Scratch with PyTorch
 
-![ViT architecture](vit_architecture.WEBP)
+![ViT architecture](vit_architecture.png)
 
 ## Introduction
 
